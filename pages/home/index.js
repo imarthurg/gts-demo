@@ -4,7 +4,7 @@ const channels = [
   {
     title: 'Whatsapp',
     action: () => {
-      window.open('https://api.whatsapp.com/send?phone=5511984510286', '_blank');
+      window.open('https://api.whatsapp.com/send?phone=+5511969630818', '_blank');
     },
   },
   {
@@ -26,9 +26,15 @@ const channels = [
     },
   },
   {
-    title: 'Telefone',
+    title: 'Telefone Adalberto',
     action: () => {
-      window.open('tel:55555555');
+      window.open('tel:+5511969630818');
+    },
+  },
+  {
+    title: 'Telefone Fernando',
+    action: () => {
+      window.open('tel:+5511991277350');
     },
   },
 ];
